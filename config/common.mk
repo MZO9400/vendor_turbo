@@ -72,6 +72,12 @@ PRODUCT_PACKAGES += \
     SpareParts \
     su
 
+
+# CM Hardware Abstraction Framework
+PRODUCT_PACKAGES += \
+    org.cyanogenmod.hardware \
+    org.cyanogenmod.hardware.xml
+
 # Additional Turbo packages
 PRODUCT_PACKAGES += \
     Basic \
